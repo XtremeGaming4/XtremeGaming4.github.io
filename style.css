@@ -1,0 +1,82 @@
+h1{
+    font-family: 'Coming Soon', cursive;
+   /* with this tag about here it allows me to be able  */
+}
+               ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+p{
+    float: left;
+    border: 1px solid black;
+    width: 300px;
+    color: #BADA55;
+    animation: mymove 5s infinite;
+    background-color: black
+}
+
+
+.left{
+    float:left
+}
+
+
+
+    p {
+        border: 1px solid black;
+        width: 300px;
+        width: 100%;
+        
+
+            }
+.cornerImage{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.photoCredit{
+    position: absolute;
+    bottom: 1px; left: 1px;
+    font-family: 'Coming Soon', cursive;
+    width: 100%;
+    
+}
+
+      body { background: url(background.jpg) no-repeat center center fixed;
+            background-size:cover;
+}
+.gif{
+      position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+
